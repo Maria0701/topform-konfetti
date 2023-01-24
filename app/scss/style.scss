@@ -1,0 +1,17 @@
+@import "components/prices-block.scss";
+body {
+    position: relative;
+}
+.confetti {
+    position: absolute;
+    z-index: 9999;
+  }
+  
+  .confetti-item {
+    width: 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+    border-radius: 50%;
+  }

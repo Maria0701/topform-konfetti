@@ -1,0 +1,84 @@
+<div class="popup-overlay" data-popup="order">
+    <section class="popup">
+        <div class="popup__wrapper">
+            <button class="btn popup__close js-close">
+                <svg width="12" height="12">
+                    <use xlink:href="/htdocs/img/sprite.svg#close2"></use>
+                </svg>
+            </button>
+            <div class="popup__head">
+                <p class="popup__name">Оставьте заявку на вызов мастера</p>
+                <p class="popup__remark">Заполните форму заявки и наш менеджер свяжется с вами в ближайшее время</p>
+            </div>
+
+            <form action="#" method="post" enctype="multipart/form-data" class="popup__form comment-form--colls comment-form">
+                <input type="hidden" name="areaform" value="59">
+                <input type="hidden" name="ajreq" value="1">
+                <input type="hidden" name="send" value="1">
+
+                <label class="comment-form__label">
+                    <input class="comment-form__input required" name="field_124_area_59" type="text" placeholder="Иванова Елена Алексеевна">
+                    <span class="comment-form__name" name="name">Имя*</span>
+                </label>
+                <label class="comment-form__label">
+                    <input class="comment-form__input required" name="field_125_area_59" type="tel" placeholder="+7 (931) 001-34-34">
+                    <span class="comment-form__name" name="tel">Телефон*</span>
+                </label>
+                <label class="comment-form__label">
+                    <input class="comment-form__input required" name="field_126_area_59" type="email" placeholder="">
+                    <span class="comment-form__name" name="email">E-mail*</span>
+                </label>
+                <label class="comment-form__label comment-form__label--text">
+                    <textarea class="comment-form__text" name="field_127_area_59"></textarea>
+                    <span class="comment-form__name" name="comment">Комментарий</span>
+                </label>
+                <div class="comment-form__bottom">
+                    <label class="comment-form__label comment-form__label--checkbox">
+                        <input type="checkbox" name="field_128_area_59" class="required" checked="">
+                        <span>Я даю согласие на обработку <a href="#" alt="персональных данных">персональных данных</a></span>
+                    </label>
+                </div>
+                <button class="comment-form__btn btn btn--main" type="submit">ОТПРАВИТЬ  ЗАЯВКУ</button>
+            </form>
+        </div>
+    </section>
+</div>
+<div class="popup-overlay" data-popup="callback">
+    <section class="popup">
+        <div class="popup__wrapper">
+            <button class="btn popup__close js-close">
+                <svg width="24" height="24">
+                    <use xlink:href="/htdocs/img/sprite.svg#close2"></use>
+                </svg>
+            </button>
+            <div class="popup__head">
+                <p class="popup__name">Обратный звонок</p>
+            </div>
+            <form action="#" method="post" enctype="multipart/form-data" class="popup__form comment-form">
+                <input type="hidden" name="areaform" value="58">
+                <input type="hidden" name="ajreq" value="1">
+                <input type="hidden" name="send" value="1">
+
+                <label class="comment-form__label">
+                    <input class="comment-form__input required" name="field_129_area_58" type="text" placeholder="Иванова Елена Алексеевна">
+                    <span class="comment-form__name" name="name">Имя*</span>
+                </label>
+                <label class="comment-form__label">
+                    <input class="comment-form__input required" name="field_130_area_58" type="tel" placeholder="+7 (931) 001-34-34">
+                    <span class="comment-form__name" name="phone">Телефон*</span>
+                </label>
+                <div class="comment-form__bottom">
+                    <label class="comment-form__label comment-form__label--checkbox">
+                        <input type="checkbox" name="field_131_area_58" class="required" checked="">
+                        <span>Согласен на обработку<a href="#" alt="персональных данных">персональных данных</a></span>
+                    </label>
+                </div>
+                <button class="comment-form__btn btn btn--main" type="submit">ОТПРАВИТЬ  ЗАЯВКУ</button>
+            </form>
+        </div>
+    </section>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous">
+</script>
+<script src="/htdocs/js/jquery.animateNumber.js"></script>
+<script src="/htdocs/js/index.js"></script></body>

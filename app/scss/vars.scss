@@ -1,0 +1,25 @@
+:root {
+    --white: #ffffff;
+    --orange: #F85026;
+    --orange2: #FF7553;
+    --dark-gray: #1E2637;
+    --blue: #1C6896;
+    --light-gray: #F7F7F7;
+    --gray: #636363;
+    --gray-h2: #434343;
+    --large-screen: 1472px;
+    --tablet-screen: 740px;
+    --mobile-screen: 320px;
+    --padding: 16px;
+    --padding-top: 50px;
+}
+
+$small: 740px;
+$desktop-large: 1472px;
+
+@media (min-width: $small) {
+    :root {
+        --padding-top: 70px;
+    }
+}
+
